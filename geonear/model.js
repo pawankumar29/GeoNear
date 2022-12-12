@@ -16,7 +16,7 @@ const schema=new mongoose.Schema({
 })
 
 schema.index({
-    startlocation: "2dsphere",   
+    location: "2dsphere",   
 })
 // "location": { "type": "Point", "coordinates": [ 1, 40 ] },
 
